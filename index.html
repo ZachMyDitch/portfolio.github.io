@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0"> 
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/11231acae0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logoi.png" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#porfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu"></i>
+        </nav>
+    <div class="header-text">
+        <p>Web Designer</p>
+        <h1>Hi, <span>I'm Zach</span><br>from Zamboanga City, Philippines</h1>
+</div>
+</div>
+</div>
+<!---------------About-------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutme.jpg" alt="">
+            </div>        
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! I'm Zcsalweemnharr Bandahala<br>As a web designer, I am enthusiastic about building aesthetically appealing and user-friendly websites. 
+                    I have a good eye for detail and attempt to provide designs that are consistent with the brand identities and objectives of my customers. 
+                    With a thorough understanding of HTML/CSS and responsive design concepts, I ensure that websites work smoothly across several devices. 
+                    I strive to deliver unique and modern design solutions for an improved user experience by remaining current with industry trends. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX Design</span><br>Designing Web Application</li>
+                        <li><span>Web Development</span><br>Developing Web Application</li>
+                        <li><span>Machine Learning</span><br>Computing Data Analytics</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>Software Engineering</li>
+                        <li><span>2022 - 2023</span><br>Web Development</li>
+                        <li><span>2022 - 2023</span><br>Machine Learning</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>College of Computing Studies in Western Mindanao State University</li>
+                        <li><span>2022 - 2023</span><br>College of Computing Studies in Western Mindanao State University</li>
+                        <li><span>2022 - 2023</span><br>College of Computing Studies in Western Mindanao State University</li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<!---------------Services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I am currently learning UI/UX and am developing skills in producing aesthetically beautiful and intuitive interfaces that focus user experience. I hope to become a skilled UI/UX designer capable of creating interesting and user-centric digital experiences by studying design principles, user research, and prototyping methodologies.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developing</h2>
+                <p>In the course of studying web development, I am obtaining the HTML, CSS, and JavaScript abilities required to create interactive and functioning websites. I hope to become a competent web developer capable of generating responsive and dynamic online experiences through hands-on projects and constant learning.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>Machine Learning</h2>
+                <p>I am now learning statistical analysis, data preparation, and machine learning algorithms while learning machine learning data analytics. I hope to develop the skills needed to extract meaningful insights and make data-driven decisions by analyzing real-world information and applying diverse methodologies.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------Portfolio-------------------->
+<div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/rw1.png">
+                <div class="layer">
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rw2.png">
+            </div>
+            <div class="work">
+                <img src="images/rw3.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------Contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i></i></i>zakurofr@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i></i>09973342423</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/whyzzky.engkoh"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Zacckuro"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/hirotonagamura/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Zach.</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbyac2b86gC10p3XPVx5_Sr2K0Q8Ko7viI-DYPLn6ajB1iTC9LGUIsqISodcEx5kIv4_/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
